@@ -36,6 +36,7 @@ public class JdbcDemo1 {
         while(rs.next()){
             System.out.println(rs.getString("name"));
         }
+		System.out.println("wangmei")
         //6.释放资源
         rs.close();
         pstm.close();
